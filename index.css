@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');  
+body{
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+#box{
+    width: 40%;
+    height: 400px;
+    padding: 15px;
+    box-shadow: 0px 0px 5px gray;
+    background-color:wheat;
+    border-radius: 5px;
+    
+
+}
+.row{
+    /* width: 100%;
+    margin: 2rem;
+    margin-left: 0; */
+    text-align: justify;
+    padding: 15px;
+    width: 95%;
+    margin: 0.5rem;
+    margin-left: 0; 
+    color:rgb(47, 8, 73);
+}
+
+#quebox{
+    color: black;
+}
+.btn{
+    /* width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius:5px;
+    background-color: blueviolet; */
+    width: 100%;
+    /* height: fit-content; */
+    background-color: rgb(47, 8, 73);
+    transition: 0.5s;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    display: block;
+    padding: 15px;
+    cursor: pointer;
+    
+}
+@media screen and (max-width: 700px){
+    #box{
+     width: 50%;
+    }
+}
+@media screen and (max-width: 490px){
+    #box{
+     width: 70%;
+    }
+}
+
+@media screen and (max-width: 2100px){
+    body{
+        background-size: 2000px 950px;
+    }
+}
+@media screen and (max-width: 1720px){
+    body{
+        background-size: 1720px 950px;
+    }
+}
+@media screen and (max-width: 1640px){
+    body{
+        background-size: 1640px 920px;
+    }
+}
+@media screen and (max-width: 1560px){
+    body{
+        background-size: 1560px 910px;
+    }
+}
+@media screen and (max-width: 1480px){
+    body{
+        background-size: 1480px 909px;
+    }
+}
+@media screen and (max-width: 1400px){
+    body{
+        background-size: 1400px 907px;
+    }
+}
+@media screen and (max-width: 1330px){
+    body{
+        background-size: 1330px 906px;
+    }
+}
+@media screen and (max-width: 1258px){
+    body{
+        background-size: 1258px 906px;
+    }
+}
+@media screen and (max-width: 1200px){
+    body{
+        background-size: 1200px 906px;
+    }
+}
+@media screen and (max-width: 1140px){
+    body{
+        background-size: 1140px 906px;
+    }
+}
+@media screen and (max-width: 1080px){
+    body{
+        background-size: 1080px 906px;
+    }
+}
+@media screen and (max-width: 1022px){
+    body{
+        background-size: 1022px 906px;
+    }
+}
+@media screen and (max-width: 970px){
+    body{
+        background-size: 970px 906px;
+    }
+}
+@media screen and (max-width: 918px){
+    body{
+        background-size: 918px 906px;
+    }
+}
+@media screen and (max-width: 870px){
+    body{
+        background-size: 870px 905px;
+    }
+}
+@media screen and (max-width: 824px){
+    body{
+        background-size: 824px 906px;
+    }
+}
+@media screen and (max-width: 780px){
+    body{
+        background-size: 780px 906px;
+    }
+}
+@media screen and (max-width: 740px){
+    body{
+        background-size: 740px 906px;
+    }
+}
+@media screen and (max-width: 700px){
+    body{
+        background-size: 700px 906px;
+    }
+}
+@media screen and (max-width: 660px){
+    body{
+        background-size: 660px 906px;
+    }
+}
+@media screen and (max-width: 620px){
+    body{
+        background-size: 620px 906px;
+    }
+}
+@media screen and (max-width: 580px){
+    body{
+        background-size: 580px 906px;
+    }
+}
+@media screen and (max-width: 540px){
+    body{
+        background-size: 540px 906px;
+    }
+}
+@media screen and (max-width: 500px){
+    body{
+        background-size: 500px 906px;
+    }
+}
+@media screen and (max-width: 460px){
+    body{
+        background-size: 460px 906px;
+    }
+}
+@media screen and (max-width: 420px){
+    body{
+        background-size: 420px 906px;
+    }
+}
+@media screen and (max-width: 380px){
+    body{
+        background-size: 380px 906px;
+    }
+}
+@media screen and (max-width: 340px){
+    body{
+        background-size: 340px 906px;
+    }
+}
